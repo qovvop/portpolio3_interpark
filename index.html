@@ -1,0 +1,1680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인터파크 도서</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.4.min.js"></script>
+    <link href="css/index.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4bf53ca42d.js" crossorigin="anonymous"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/section2.js"></script>
+    <script src="js/section3.js"></script>
+    <script src="js/section5.js"></script>
+    <script src="js/section6.js"></script>
+    <script src="js/section7.js"></script>
+</head>
+
+<body>
+    <wrap>
+        <!----------   -----  헤더  -----    ---------->
+        <header>
+            <!---  헤더1  --->
+            <div id="headerTop">
+                <div class="headerTop_center">
+                    <div class="headerTop_left">
+                        <ul class="headerTop_leftMenu">
+                            <li><a href="sub.html">홈</a></li>
+                            <li><a href="sub.html">투어</a></li>
+                            <li><a href="sub.html">티켓</a></li>
+                            <li><a href="sub.html">쇼핑</a></li>
+                            <li><a href="sub.html">도서</a></li>
+                        </ul>
+                    </div>
+                    <div class="headerTop_right">
+                        <ul class="headerTop_rightMenu">
+                            <li><a href="sub.html">로그인</a></li>
+                            <li><a href="sub.html">회원가입</a></li>
+                            <li><a href="sub.html">북카트</a></li>
+                            <li><a href="sub.html">마이페이지<img src="img/header_arrow_down.png"></a>
+                                <ul class="headerTop_rightMenu_sub">
+                                    <li><a>마이도서</a></li>
+                                    <li><a>주문배송조회</a></li>
+                                    <li><a>I-포인트적립</a></li>
+                                    <li><a>나의할인쿠폰</a></li>
+                                    <li><a>회원수정</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="sub.html">북피니언</a></li>
+                            <li><a href="sub.html">고객센터</a></li>
+                            <li><a href="sub.html">모바일APP</a></li>
+                            <li><a href="sub.html">Language<img src="img/header_arrow_down.png"></a>
+                                <ul class="headerTop_rightMenu_sub">
+                                    <li><a>English</a></li>
+                                    <li><a>日本語</a></li>
+                                    <li><a>中文</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!---  헤더2  --->
+            <div id="headerMiddle">
+                <div class="headerMiddle_center">
+                    <div class="headerLogo">
+                        <a href="index.html"><img src="img/logo_IntcBook.png"></a>
+                    </div>
+
+                    <div class="headerSearch">
+                        <input type="text" placeholder="던킨 아메리카노 Free!" onfocus="this.placeholder=''"
+                            onblur="this.placeholder='던킨 아메리카노 Free!'"
+                            style="background-image:url('img/btn_search.png'); background-position:390px 4px;"></input>
+
+                        <ul class="headerSearch_bottom">
+                            <li><a href="#">최인아 대표</a></li>
+                            <li>|</li>
+                            <li><a href="#">과학의 위로</a></li>
+                            <li>|</li>
+                            <li><a href="#">이해인 추천</a></li>
+                            <li>|</li>
+                            <li><a href="#">돈많은친구</a></li>
+                            <li>|</li>
+                            <li><a href="#">부와 성공의 법칙</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="headerAD">
+                        <img src="img/GN_dun_0407.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <!---  헤더3  --->
+            <div id="headerBottom">
+                <div class="headerBottom_center">
+                    <div class="all_nav">
+                        <a><i class="fa-solid fa-bars"></i>전체카테고리<i class="fa-solid fa-chevron-down"></i></a>
+                        <!--전체카테고리-->
+                        <div class="all_navBox">
+                            <div class="all_navBox_top">
+                                <div class="navBox_domesticbook">
+                                    <h3>국내도서</h3>
+                                    <div class="domesticbook_ul">
+                                        <ul>
+                                            <li>소설</li>
+                                            <li>장르소설</li>
+                                            <li>시.에세이</li>
+                                            <li>경제경영</li>
+                                            <li>자기계발</li>
+                                            <li>사회과학</li>
+                                            <li>역사.문화</li>
+                                            <li>예술.대중문화</li>
+                                            <li>인문</li>
+                                            <li>자연.과학</li>
+                                            <li>종교.역학</li>
+                                            <li>유아</li>
+                                            <li>아동</li>
+                                            <li>가정과 생활</li>
+                                            <li>청소년</li>
+                                            <li>초등학습</li>
+                                            <li>중등학습</li>
+                                            <li>고등학습</li>
+                                            <li>국어.외국어.사전</li>
+                                        </ul>
+
+                                        <ul>
+                                            <li>자격서수험서</li>
+                                            <li>공무원 수험서</li>
+                                            <li>컴퓨터.인터넷</li>
+                                            <li>전공.대학교재</li>
+                                            <li>여행</li>
+                                            <li>취미레저</li>
+                                            <li>건강뷰티</li>
+                                            <li>잡지</li>
+                                            <li>만화.라이트노벨</li>
+                                            <li>유아동전집</li>
+                                            <li>예약판매</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="navBox_foreignbook">
+                                    <h3>외국도서</h3>
+                                    <div class="foreignbook_ul">
+                                        <ul>
+                                            <li>어린이</li>
+                                            <li>문학</li>
+                                            <li>ELT·사전</li>
+                                            <li>컴퓨터</li>
+                                            <li>경제·인문</li>
+                                            <li>실용·예술</li>
+                                            <li>대학·전문서적</li>
+                                            <li>해외잡지</li>
+                                            <li>학습교구/게임</li>
+                                            <li>프랑스도서</li>
+                                            <li>예약판매</li>
+                                            <li>원서vs번역서</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="navBox_goods">
+                                    <h3>굿즈#></h3>
+                                    <div class="goods_ul">
+                                        <ul>
+                                            <li>문구/팬시</li>
+                                            <li>사무/학용</li>
+                                            <li>학습</li>
+                                            <li>독서용품</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="all_navBox_bottom">
+                                <img src="img/icon_closeX.png" class="closeX">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="nav">
+                        <ul class="navRight">
+                            <li><a href="sub.html">베스트셀러</a></li>
+                            <li><a href="sub.html">신간</a></li>
+                            <li><a href="sub.html">이벤트</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <div id="main">
+
+            <!----------   -----  슬라이더  -----    ---------->
+            <div id="slider">
+                <div class="sliderTop">
+
+                    <!-- 마우스올려 팝업 -->
+                    <div class="mOverBanner">
+                        <img src="img/slide/mOverBanner.png" class="mOverBanner_on">
+                        <img src="img/slide/mOverBanner_bottom.png" class="mOverBanner_on">
+
+                        <div class="mOverBanner_pop">
+                            <img src="img/slide/mOverBanner_img.jpg">
+                            <div class="mOverBanner_popButton">
+                                <img src="img/slide/bt_mLeftLyToday.png">
+                                <img src="img/slide/bt_Close.png">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 베스트셀러 -->
+                    <div class="slide_bestSell">
+                        <div class="bestSell_top">
+                            <h4>베스트셀러</h4>
+                        </div>
+
+                        <div class="bestSell_bottom">
+                            <div class="BestSellTabs">
+                                <ul>
+                                    <li>오늘</li>
+                                    <li>주간</li>
+                                </ul>
+                            </div>
+
+                            <div class="BestSellContents">
+                                <!-- 오늘 -->
+                                <div class="todayBestsell">
+                                    <ul class="today_contents">
+                                        <li>
+                                            <span class="no">1</span>
+                                            <div class="breathstay">
+                                                <img src="img/slide/icon_dash.png" alt="dash">
+                                                <a></a>
+                                            </div>
+                                            <strong class="title">세이노의 가르침</strong>
+                                        </li>
+
+                                        <li>
+                                            <span class="no">2</span>
+                                            <div class="breathstay">
+                                                <img src="img/slide/icon_up.png">
+                                                <a>2</a>
+                                            </div>
+                                            <strong class="title">나의 돈 많은 고등학교 친구</strong>
+                                        </li>
+
+                                        <li>
+                                            <span class="no">3</span>
+                                            <div class="breathstay">
+                                                <img src="img/slide/icon_up.png">
+                                                <a>7</a>
+                                            </div>
+                                            <strong class="title">사장학개론</strong>
+                                        </li>
+
+                                        <li>
+                                            <span class="no">4</span>
+                                            <div class="breathstay">
+                                                <img src="img/slide/icon_down.png">
+                                                <a>2</a>
+                                            </div>
+                                            <strong class="title">고래</strong>
+                                        </li>
+
+                                        <li>
+                                            <span class="no">5</span>
+                                            <div class="breathstay">
+                                                <img src="img/slide/icon_dash.png" alt="dash">
+                                                <a></a>
+                                            </div>
+                                            <strong class="title">내가 가진것을 세상이 원하...</strong>
+                                        </li>
+
+                                        <li>
+                                            <span class="no">6</span>
+                                            <div class="breathstay">
+                                                <img src="img/slide/icon_dash.png" alt="dash">
+                                                <a></a>
+                                            </div>
+                                            <strong class="title">이지성의 1만 킬로미터</strong>
+                                        </li>
+
+                                        <li>
+                                            <span class="no">7</span>
+                                            <div class="breathstay">
+                                                <img src="img/slide/icon_up.png">
+                                                <a>1</a>
+                                            </div>
+                                            <strong class="title">모든 삶은 흐른다</strong>
+                                        </li>
+
+                                        <li>
+                                            <span class="no">8</span>
+                                            <div class="breathstay">
+                                                <img src="img/slide/icon_down.png">
+                                                <a>5</a>
+                                            </div>
+                                            <strong class="title">메리골드 마음 세탁소</strong>
+                                        </li>
+
+                                        <li>
+                                            <span class="no">9</span>
+                                            <div class="breathstay">
+                                                <img src="img/slide/icon_up.png">
+                                                <a>5</a>
+                                            </div>
+                                            <strong class="title">데일 카네기 인간관계론</strong>
+                                        </li>
+
+                                        <li>
+                                            <span class="no">10</span>
+                                            <div class="breathstay">
+                                                <img src="img/slide/icon_down.png">
+                                                <a>4</a>
+                                            </div>
+                                            <strong class="title">이미 늦었다고 생각하는 당...</strong>
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+                                <!-- 주간 -->
+                                <div class="weekBestsell">
+                                    <ul class="today_contents">
+                                        <li>
+                                            <span class="no">1</span>
+                                            <div class="breathstay">
+                                                <img src="img/slide/icon_dash.png" alt="dash">
+                                                <a></a>
+                                            </div>
+                                            <strong class="title">세이노의 가르침</strong>
+                                        </li>
+
+                                        <li>
+                                            <span class="no">2</span>
+                                            <div class="breathstay">
+                                                <img src="img/slide/icon_dash.png" alt="dash">
+                                                <a></a>
+                                            </div>
+                                            <strong class="title">모든 삶은 흐른다</strong>
+                                        </li>
+
+                                        <li>
+                                            <span class="no">3</span>
+                                            <div class="breathstay">
+                                                <img src="img/slide/icon_up.png">
+                                                <a>2</a>
+                                            </div>
+                                            <strong class="title">나의 돈많은 고등학교 친구</strong>
+                                        </li>
+
+                                        <li>
+                                            <span class="no">4</span>
+                                            <div class="breathstay">
+                                                <img src="img/slide/icon_down.png">
+                                                <a>1</a>
+                                            </div>
+                                            <strong class="title">사장학개론</strong>
+                                        </li>
+
+                                        <li>
+                                            <span class="no">5</span>
+                                            <div class="breathstay">
+                                                <img src="img/slide/icon_new.png" alt="new">
+                                                <a></a>
+                                            </div>
+                                            <strong class="title">이지성의 1만 킬로미터</strong>
+                                        </li>
+
+                                        <li>
+                                            <span class="no">6</span>
+                                            <div class="breathstay">
+                                                <img src="img/slide/icon_up.png">
+                                                <a>5</a>
+                                            </div>
+                                            <strong class="title">아버지의 해방일지</strong>
+                                        </li>
+
+                                        <li>
+                                            <span class="no">7</span>
+                                            <div class="breathstay">
+                                                <img src="img/slide/icon_down.png">
+                                                <a>1</a>
+                                            </div>
+                                            <strong class="title">메리골드 마음 세탁소</strong>
+                                        </li>
+
+                                        <li>
+                                            <span class="no">8</span>
+                                            <div class="breathstay">
+                                                <img src="img/slide/icon_up.png">
+                                                <a>6</a>
+                                            </div>
+                                            <strong class="title">이미 늦었다고 생각하는 당...</strong>
+                                        </li>
+
+                                        <li>
+                                            <span class="no">9</span>
+                                            <div class="breathstay">
+                                                <img src="img/slide/icon_down.png">
+                                                <a>2</a>
+                                            </div>
+                                            <strong class="title">건강과 다이어트를 동시에...</strong>
+                                        </li>
+
+                                        <li>
+                                            <span class="no">10</span>
+                                            <div class="breathstay">
+                                                <img src="img/slide/icon_down.png">
+                                                <a>6</a>
+                                            </div>
+                                            <strong class="title">흔한남매 13</strong>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--슬라이더 메인-->
+                    <div class="slideList">
+                        <span class="slideButton-prev"></span>
+                        <span class="slideButton-next"></span>
+
+
+                        <div class="slideMain_wrap">
+                            <div class="slideMain_inner">
+                                <img src="img/slide/slide_1.png">
+                            </div>
+                        </div>
+
+                        <div class="slideMain_wrap">
+                            <div class="slideMain_inner">
+                                <img src="img/slide/slide_2.png">
+                            </div>
+                        </div>
+
+                        <div class="slideMain_wrap">
+                            <div class="slideMain_inner">
+                                <img src="img/slide/slide_3.png">
+                            </div>
+                        </div>
+
+                        <div class="slideMain_wrap">
+                            <div class="slideMain_inner">
+                                <img src="img/slide/slide_4.png">
+                            </div>
+                        </div>
+
+                        <div class="slideMain_wrap">
+                            <div class="slideMain_inner">
+                                <img src="img/slide/slide_5.png">
+                            </div>
+                        </div>
+
+                        <div class="slideMain_wrap">
+                            <div class="slideMain_inner">
+                                <img src="img/slide/slide_6.png">
+                            </div>
+                        </div>
+
+                        <div class="slideMain_wrap">
+                            <div class="slideMain_inner">
+                                <img src="img/slide/slide_7.png">
+                            </div>
+                        </div>
+
+                        <div class="slideMain_wrap">
+                            <div class="slideMain_inner">
+                                <img src="img/slide/slide_8.jpg">
+                            </div>
+                        </div>
+
+                        <div class="slideMain_wrap">
+                            <div class="slideMain_inner">
+                                <img src="img/slide/slide_9.jpg">
+                            </div>
+                        </div>
+
+                        <div class="slideMain_wrap">
+                            <div class="slideMain_inner">
+                                <img src="img/slide/slide_10.jpg">
+                            </div>
+                        </div>
+
+                        <div class="slideMain_wrap">
+                            <div class="slideMain_inner">
+                                <img src="img/slide/slide_11.png">
+                            </div>
+                        </div>
+
+                        <div class="slideMain_wrap">
+                            <div class="slideMain_inner">
+                                <img src="img/slide/slide_12.png">
+                            </div>
+                        </div>
+
+                        <div class="slideMain_wrap">
+                            <div class="slideMain_inner">
+                                <img src="img/slide/slide_13.png">
+                            </div>
+                        </div>
+
+                        <div class="slideMain_wrap">
+                            <div class="slideMain_inner">
+                                <ul class="slideMain_Booklist_wrap">
+                                    <li class="slideMain_Booklist">
+                                        <ul class="slideMain_Booklist_content">
+                                            <li class="bookList_imgbox"><img src="img/slide/slide_inner_1.jpg"></li>
+                                            <li class="BookList_title">EBS 수학영역 수능완성 수학1·수학2·미적분(2023)(2024 수능대비)</li>
+                                            <li class="BookList_sub">ebs 수능완성</li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="slideMain_Booklist">
+                                        <ul class="slideMain_Booklist_content">
+                                            <li class="bookList_imgbox"><img src="img/slide/slide_inner_2.jpg"></li>
+                                            <li class="BookList_title">마음의 지혜</li>
+                                            <li class="BookList_sub">마음멘토 김경일의 지혜</li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="slideMain_Booklist">
+                                        <ul class="slideMain_Booklist_content">
+                                            <li class="bookList_imgbox"><img src="img/slide/slide_inner_3.jpg"></li>
+                                            <li class="BookList_title">미드나잇뮤지엄: 파리</li>
+                                            <li class="BookList_sub">혼자서떠나는 미술관 여행</li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="slideMain_Booklist">
+                                        <ul class="slideMain_Booklist_content">
+                                            <li class="bookList_imgbox"><img src="img/slide/slide_inner_4.jpg"></li>
+                                            <li class="BookList_title">딸아 돈 공부 절대 미루지 마라</li>
+                                            <li class="BookList_sub">돈과 인생에 대한 조언</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--슬라이더 바텀-->
+                <div class="sliderBottom">
+                    <div class="sliderBottom_inner">
+
+                        <div class="sliderBottom_section">
+                            <a class="slideBottom_tab"><span>핫클릭 이벤트</span></a>
+                            <div class="slideBottom_sub_hotclick">
+                                <ul>
+                                    <li>1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                    <li>4</li>
+                                    <li>5</li>
+                                    <li>6</li>
+                                    <li>7</li>
+                                    <li>8</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="sliderBottom_section">
+                            <a class="slideBottom_tab"><span>비전공자도 이해할 수 있는 AI 지식</span></a>
+                        </div>
+
+                        <div class="sliderBottom_section">
+                            <a class="slideBottom_tab"><span>추천 이벤트</span></a>
+                            <div class="slideBottom_sub_event">
+                                <ul>
+                                    <li>1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                    <li>4</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="sliderBottom_section">
+                            <a class="slideBottom_tab"><span>화제의 책</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!----------   -----  섹션1  -----    ---------->
+            <div id="section1">
+                <div class="addBanner"><a href="sub.html"><img src="img/addBanner_1.jpg"></a></div>
+                <div class="addBanner"><a href="sub.html"><img src="img/addBanner_2.jpg"></a></div>
+                <div class="addBanner"><a href="sub.html"><img src="img/addBanner_3.jpg"></a></div>
+            </div>
+
+            <!----------   -----  섹션2  -----    ---------->
+            <div id="section2">
+                <!--인터파크추천-->
+                <div class="interparkRecommend">
+                    <div class="interparkRecommend_top">
+                        <img src="img/interparkRecommend.png" class="interparkRecommend_title">
+                        <a href="sub.html" class="more">더보기<img src="img/icon_arrowRightGrey.png"
+                                class="icon_arrowRightGrey"></a>
+                    </div>
+
+                    <div class="interparkRecommend_bottom">
+                        <div class="RecommendWrap">
+                            <ul class="RecommendSlide" style="margin-left:0px">
+                                <li>
+                                    <div class="RecommendSlide_left">
+                                        <div class="Recommend_clip">
+                                            <img src="img/heartClip.png" class="heartClip">
+                                        </div>
+                                        <img src="" class="RecommendSlide_imgbox">
+                                    </div>
+
+                                    <div class="RecommendSlide_right">
+                                        <div class="right_starbox">
+                                            <img src="img/img_star.png" class="starimg">
+                                            <span>10<span>
+                                        </div>
+                                        <h4></h4>
+                                        <div class="txtArea">
+                                            <p class="txtArea_txt"></p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="RecommendSlide_left">
+                                        <div class="Recommend_clip">
+                                            <img src="img/heartClip.png" class="heartClip">
+                                        </div>
+                                        <img src="" class="RecommendSlide_imgbox">
+                                    </div>
+
+                                    <div class="RecommendSlide_right">
+                                        <div class="right_starbox">
+                                            <img src="img/img_star.png" class="starimg">
+                                            <span>10<span>
+                                        </div>
+                                        <h4></h4>
+                                        <div class="txtArea">
+                                            <p class="txtArea_txt"></p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="RecommendSlide_left">
+                                        <div class="Recommend_clip">
+                                            <img src="img/heartClip.png" class="heartClip">
+                                        </div>
+                                        <img src="" class="RecommendSlide_imgbox">
+                                    </div>
+
+                                    <div class="RecommendSlide_right">
+                                        <div class="right_starbox">
+                                            <img src="img/img_star.png" class="starimg">
+                                            <span>10<span>
+                                        </div>
+                                        <h4></h4>
+                                        <div class="txtArea">
+                                            <p class="txtArea_txt"></p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="RecommendSlide_left">
+                                        <div class="Recommend_clip">
+                                            <img src="img/heartClip.png" class="heartClip">
+                                        </div>
+                                        <img src="" class="RecommendSlide_imgbox">
+                                    </div>
+
+                                    <div class="RecommendSlide_right">
+                                        <div class="right_starbox">
+                                            <img src="img/img_star.png" class="starimg">
+                                            <span>10<span>
+                                        </div>
+                                        <h4></h4>
+                                        <div class="txtArea">
+                                            <p class="txtArea_txt"></p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="RecommendSlide_left">
+                                        <div class="Recommend_clip">
+                                            <img src="img/heartClip.png" class="heartClip">
+                                        </div>
+                                        <img src="" class="RecommendSlide_imgbox">
+                                    </div>
+
+                                    <div class="RecommendSlide_right">
+                                        <div class="right_starbox">
+                                            <img src="img/img_star.png" class="starimg">
+                                            <span>10<span>
+                                        </div>
+                                        <h4></h4>
+                                        <div class="txtArea">
+                                            <p class="txtArea_txt"></p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <span class="inter_prev"><i class="fas fa-angle-left"></i></span>
+                    <span class="inter_next"><i class="fas fa-angle-right"></i></span>
+                </div>
+
+
+                <!--트렌드이슈-->
+                <div class="trandIssue">
+                    <div class="trandIssue_top">
+                        <h2>Trend & Issue</h2>
+                    </div>
+                    <div class="trandIssue_bottom"><a href="sub.html"><img src="img/section3_trend.jpg"></a></div>
+                </div>
+            </div>
+
+
+
+
+
+            <!----------   -----  섹션3  -----    ---------->
+            <div id="section3">
+                <!--출판사초이스-->
+                <div class="publisherChoice">
+                    <div class="publisherChoice_top">
+                        <img src="img/h2_publisherChoice.png" class="publisherChoice_title">
+                    </div>
+                    <div class="publisherChoice_bottom">
+                        <a href="sub.html"><img src="img/publisherChoice_img.jpg"></a>
+                    </div>
+                </div>
+
+                <!--미디어추천-->
+                <div class="readerRecommend">
+                    <div class="readerRecommend_top">
+                        <img src="img/h2_media_recommend.png" class="readerRecommend_title">
+                    </div>
+                    <div class="readerRecommend_bottom">
+                        <div class="readerRecommend_slide">
+                            <ul>
+                                <li class="readerRecommend_content">
+                                    <div class="content_left">
+                                        <img src="">
+                                    </div>
+                                    <div class="content_right">
+                                        <h3></h3>
+                                        <span></span>
+                                        <p></p>
+                                    </div>
+                                </li>
+                                <li class="readerRecommend_content">
+                                    <div class="content_left">
+                                        <img src="">
+                                    </div>
+                                    <div class="content_right">
+                                        <h3></h3>
+                                        <span></span>
+                                        <p></p>
+                                    </div>
+                                </li>
+                                <li class="readerRecommend_content">
+                                    <div class="content_left">
+                                        <img src="">
+                                    </div>
+                                    <div class="content_right">
+                                        <h3></h3>
+                                        <span></span>
+                                        <p></p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <ul class="dot1">
+                            <li class="on"><i class="fas fa-circle"></i></li>
+                            <li><i class="fas fa-circle"></i></li>
+                            <li><i class="fas fa-circle"></i></li>
+                        </ul>
+
+                        <span class="media_prev"><i class="fas fa-angle-left"></i></span>
+                        <span class="media_next"><i class="fas fa-angle-right"></i></span>
+                    </div>
+                </div>
+
+                <!--이책어때-->
+                <div class="readMyMind">
+                    <div class="how_wrap">
+                        <div class="how">
+                            <ul>
+                                <li class="how_content"><img src="img/readmymind.jpg"></li>
+                                <li class="how_content"><img src="img/readmymind_img2.jpg"></li>
+                                <li class="how_content"><img src="img/readmymind_img3.jpg"></li>
+                                <li class="how_content"><img src="img/readmymind_img4.jpg"></li>
+                            </ul>
+                        </div>
+
+                        <ul class="dot2">
+                            <li class="on"><i class="fas fa-circle"></i></li>
+                            <li><i class="fas fa-circle"></i></li>
+                            <li><i class="fas fa-circle"></i></li>
+                            <li><i class="fas fa-circle"></i></li>
+                        </ul>
+
+                        <span class="how_prev"><i class="fas fa-angle-left"></i></span>
+                        <span class="how_next"><i class="fas fa-angle-right"></i></span>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!----------   -----  섹션4  -----    ---------->
+            <div id="section4">
+                <a href="sub.html"><img src="img/banner_recommend_login.png"></a>
+            </div>
+
+
+
+            <!----------   -----  섹션5 분야별추천  -----    ---------->
+            <div id="section5">
+                <div class="section5_top"><img src="img/h2_categoryRecommend.png"></div>
+
+                <!--nav-->
+                <div class="section5_bottom">
+                    <ul class="section5_category">
+                        <li>문학</li>
+                        <li>인문/교양</li>
+                        <li>경제/실용</li>
+                        <li>유아/아동</li>
+                        <li>학습/어학</li>
+                        <li>외국도서</li>
+                    </ul>
+
+                    <!--이전,다음버튼-->
+                    <span class="section5_prev"><i class="fas fa-angle-left"></i></span>
+                    <span class="section5_next"><i class="fas fa-angle-right"></i></span>
+
+                    <!--wrap-->
+                    <div class="section5_wrap1 section5box">
+                        <div class="section5_innerbox">
+                            <ul class="section5_contents1">
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="section5_wrap2 section5box">
+                        <div class="section5_innerbox">
+                            <ul class="section5_contents2">
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="section5_wrap3 section5box">
+                        <div class="section5_innerbox">
+                            <ul class="section5_contents3">
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="section5_wrap4 section5box">
+                        <div class="section5_innerbox">
+                            <ul class="section5_contents4">
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="section5_wrap5 section5box">
+                        <div class="section5_innerbox">
+                            <ul class="section5_contents5">
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="section5_wrap6 section5box">
+                        <div class="section5_innerbox">
+                            <ul class="section5_contents6">
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <h6></h6>
+                                    <span></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!----------   -----  섹션6  -----    ---------->
+            <div id="section6">
+
+                <!-- 주목!이달의 책 -->
+                <div class="section6_left">
+                    <!--이달의책_탑-->
+                    <div class="section6_left_top">
+                        <div class="section6_title">
+                            <span>주목!</span><span>이달의 책</span>
+                            <p><a href="sub.html">더보기<i class="fas fa-caret-right"></i></a></p>
+                        </div>
+                        <div class="section6_prevnext">
+                            <span class="month_prev"><img src="img/img_publisherArrow1.png"></span>
+                            <span class="month_next"><img src="img/img_publisherArrow2.png"></span>
+                        </div>
+                    </div>
+
+                    <!--이달의책_바텀-->
+                    <div class="section6_left_bottom">
+                        <ul>
+                            <li>
+                                <div class="month_top">
+                                    <div class="month_imgbox"><img src=""></div>
+                                    <div class="month_contentbox">
+                                        <img src="img/img_star.png">
+                                        <span class="star_text">10</span>
+                                        <p></p>
+                                        <span class="price"></span>
+                                        <span class="saleprice"></span>
+                                    </div>
+                                </div>
+                                <div class="month_bottom">
+                                    <div class="month_imgbox"><img src=""></div>
+                                    <div class="month_contentbox">
+                                        <img src="img/img_star.png">
+                                        <span class="star_text">10</span>
+                                        <p></p>
+                                        <span class="price"></span>
+                                        <span class="saleprice"></span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="month_top">
+                                    <div class="month_imgbox"><img src=""></div>
+                                    <div class="month_contentbox">
+                                        <img src="img/img_star.png">
+                                        <span class="star_text">10</span>
+                                        <p></p>
+                                        <span class="price"></span>
+                                        <span class="saleprice"></span>
+                                    </div>
+                                </div>
+                                <div class="month_bottom">
+                                    <div class="month_imgbox"><img src=""></div>
+                                    <div class="month_contentbox">
+                                        <img src="img/img_star.png">
+                                        <span class="star_text">10</span>
+                                        <p></p>
+                                        <span class="price"></span>
+                                        <span class="saleprice"></span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="month_top">
+                                    <div class="month_imgbox"><img src=""></div>
+                                    <div class="month_contentbox">
+                                        <img src="img/img_star.png">
+                                        <span class="star_text">10</span>
+                                        <p></p>
+                                        <span class="price"></span>
+                                        <span class="saleprice"></span>
+                                    </div>
+                                </div>
+                                <div class="month_bottom">
+                                    <div class="month_imgbox"><img src=""></div>
+                                    <div class="month_contentbox">
+                                        <img src="img/img_star.png">
+                                        <span class="star_text">10</span>
+                                        <p></p>
+                                        <span class="price"></span>
+                                        <span class="saleprice"></span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="month_top">
+                                    <div class="month_imgbox"><img src=""></div>
+                                    <div class="month_contentbox">
+                                        <img src="img/img_star.png">
+                                        <span class="star_text">10</span>
+                                        <p></p>
+                                        <span class="price"></span>
+                                        <span class="saleprice"></span>
+                                    </div>
+                                </div>
+                                <div class="month_bottom">
+                                    <div class="month_imgbox"><img src=""></div>
+                                    <div class="month_contentbox">
+                                        <img src="img/img_star.png">
+                                        <span class="star_text">10</span>
+                                        <p></p>
+                                        <span class="price"></span>
+                                        <span class="saleprice"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 특가할인/정가인하 -->
+                <div class="section6_right">
+
+                    <!--네비 UL-->
+                    <div class="section6_right_top">
+                        <ul class="section6_right_nav">
+                            <li class="sale_on">특가할인</li>
+                            <li>정가인하</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="section6_right_bottom">
+
+                        <ul class="kind">
+                            <!--특가할인-->
+                            <li class="sale_on">
+                                <ul class="sale_content">
+                                    <li class="sale1">
+                                        <div class="sale_imgbox">
+                                            <img src="">
+                                        </div>
+                                        <h6></h6>
+                                        <p></p>
+                                        <span></span>
+                                    </li>
+
+                                    <li class="sale1">
+                                        <div class="sale_imgbox">
+                                            <img src="">
+                                        </div>
+                                        <h6></h6>
+                                        <p></p>
+                                        <span></span>
+                                    </li>
+
+                                    <li class="sale1">
+                                        <div class="sale_imgbox">
+                                            <img src="">
+                                        </div>
+                                        <h6></h6>
+                                        <p></p>
+                                        <span></span>
+                                    </li>
+
+                                    <li class="sale1">
+                                        <div class="sale_imgbox">
+                                            <img src="">
+                                        </div>
+                                        <h6></h6>
+                                        <p></p>
+                                        <span></span>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!--정가인하-->
+                            <li class="sale_on">
+                                <ul class="sale_content">
+                                    <li class="sale2">
+                                        <div class="sale_imgbox2">
+                                            <img src="">
+                                        </div>
+                                        <h6></h6>
+                                        <p></p>
+                                        <span></span>
+                                    </li>
+
+                                    <li class="sale2">
+                                        <div class="sale_imgbox2">
+                                            <img src="">
+                                        </div>
+                                        <h6></h6>
+                                        <p></p>
+                                        <span></span>
+                                    </li>
+
+                                    <li class="sale2">
+                                        <div class="sale_imgbox2">
+                                            <img src="">
+                                        </div>
+                                        <h6></h6>
+                                        <p></p>
+                                        <span></span>
+                                    </li>
+
+                                    <li class="sale2">
+                                        <div class="sale_imgbox2">
+                                            <img src="">
+                                        </div>
+                                        <h6></h6>
+                                        <p></p>
+                                        <span></span>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!----------   -----  섹션7  -----    ---------->
+            <div id="section7">
+                <!-- 1 _CD박스 -->
+                <div class="section7_box">
+                    <!--top-->
+                    <div class="section7_top">
+                        <span>CD</span>
+                        <span><a href="sub.html">더보기<i class="fas fa-caret-right"></i></a></span>
+                    </div>
+
+                    <!--middle-->
+                    <div class="section7_middle">
+                        <span class="cd_prev"><i class="fas fa-angle-left"></i></span>
+                        <span class="cd_next"><i class="fas fa-angle-right"></i></span>
+                        <div class="cd_content1">
+                            <ul>
+                                <li>
+                                    <div class="cd_imgbox1">
+                                        <img src="img/icon_playMark1.png" alt="playmark1"
+                                            style="width: auto; height: auto; position: absolute; right: 30px; bottom: 8px;">
+                                        <img src="img/cd_img1.jpg">
+                                    </div>
+                                    <div class="cd_txtbox1">
+                                        <p>태양 - Down to Earth</p>
+                                        <div class="cd_pricebox">
+                                            <span>16,500</span>
+                                            <h5>13,400원</h5>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="cd_imgbox1">
+                                        <img src="img/icon_playMark1.png" alt="playmark1"
+                                            style="width: auto; height: auto; position: absolute; right: 30px; bottom: 8px;">
+                                        <img src="img/cd_img3.jpg">
+                                    </div>
+                                    <div class="cd_txtbox1">
+                                        <p>IVE (아이브) 1집 - I've IVE [Special Ver.]</p>
+                                        <div class="cd_pricebox">
+                                            <span>33,000</span>
+                                            <h5>26,700원</h5>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="cd_imgbox1">
+                                        <img src="img/icon_playMark1.png" alt="playmark1"
+                                            style="width: auto; height: auto; position: absolute; right: 30px; bottom: 8px;">
+                                        <img src="img/cd_img2.jpg">
+                                    </div>
+                                    <div class="cd_txtbox1">
+                                        <p>에스파 (aespa) - 미니앨범 3집 : MY WORLD</p>
+                                        <div class="cd_pricebox">
+                                            <span>15,600</span>
+                                            <h5>12,600원</h5>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!--bottom-->
+                    <div class="section7_bottom">
+                        <div class="cd_content2">
+                            <div class="cd_imgbox2">
+                                <img src="img/icon_playMark1.png" alt="playmark2"
+                                    style="width: 19px; height:19px; position: absolute; right: 4px; bottom: 4px;">
+                                <img src="img/cd_img4.jpg">
+                            </div>
+                            <div class="cd_txtbox2">
+                                <p>세븐틴 (SEVENTEEN) - 미니앨범 10집 : FML [CARAT ver.]</p>
+                            </div>
+                        </div>
+
+                        <div class="cd_content2">
+                            <div class="cd_imgbox2">
+                                <img src="img/icon_playMark1.png" alt="playmark2"
+                                    style="width: 19px; height:19px; position: absolute; right: 4px; bottom: 4px;">
+                                <img src="img/cd_img5.jpg">
+                            </div>
+                            <div class="cd_txtbox2">
+                                <p>LE SSERAFIM - 1st Studio Album 'UNFORGIVEN' [SET]]</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 2 _DVD박스 -->
+                <div class="section7_box">
+                    <!--top-->
+                    <div class="section7_top">
+                        <span>DVD</span>
+                        <span><a href="sub.html">더보기<i class="fas fa-caret-right"></i></a></span>
+                    </div>
+
+                    <!--middle-->
+                    <div class="section7_middle">
+                        <span class="dvd_prev"><i class="fas fa-angle-left"></i></span>
+                        <span class="dvd_next"><i class="fas fa-angle-right"></i></span>
+                        <div class="dvd_content1">
+                            <ul>
+                                <li>
+                                    <div class="dvd_imgbox1">
+                                        <img src="img/dvd_img1.jpg">
+                                    </div>
+                                    <div class="dvd_txtbox1">
+                                        <p>에브리씽 에브리웨어 올 앳 원스 : 블루레이</p>
+                                        <div class="dvd_pricebox">
+                                            <span>41,800</span>
+                                            <h5>41,800원</h5>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="dvd_imgbox1">
+                                        <img src="img/dvd_img2.jpg">
+                                    </div>
+                                    <div class="dvd_txtbox1">
+                                        <p>언어의 정원 (1Disc, 풀슬립 일반판) : 블루레이</p>
+                                        <div class="dvd_pricebox">
+                                            <span>31,900</span>
+                                            <h5>31,900원</h5>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="dvd_imgbox1">
+                                        <img src="img/dvd_img3.jpg">
+                                    </div>
+                                    <div class="dvd_txtbox1">
+                                        <p>자백 (1Disc, 풀슬립 1000장 넘버링 한정판) : 블루레이</p>
+                                        <div class="dvd_pricebox">
+                                            <span>33,000</span>
+                                            <h5>33,000원</h5>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!--bottom-->
+                    <div class="section7_bottom">
+                        <div class="cd_content2">
+                            <div class="cd_imgbox2">
+                                <img src="img/dvd_img4.jpg">
+                            </div>
+                            <div class="cd_txtbox2">
+                                <p>옷소매 붉은 끝동 : 감독판 : MBC (15Disc) : 블루레이</p>
+                            </div>
+                        </div>
+
+                        <div class="cd_content2">
+                            <div class="cd_imgbox2">
+                                <img src="img/dvd_img5.jpg">
+                            </div>
+                            <div class="cd_txtbox2">
+                                <p>이상한 변호사 우영우 : 프리미엄판 : ENA : 블루레이</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 3 _SPECIAL박스 -->
+                <div class="section7_box">
+                    <div class="section7_top">
+                        <span>특별판 Special Ed.</span>
+                    </div>
+
+                    <div class="section7_main">
+                        <span class="special_prev"><i class="fas fa-angle-left"></i></span>
+                        <span class="special_next"><i class="fas fa-angle-right"></i></span>
+
+
+                        <div class="special_wrap">
+                            <ul class="special_slide">
+                                <li>
+                                    <div class="special_imgbox">
+                                        <a href="sub.html"><img src=""></a>
+                                    </div>
+                                    <div class="special_textbox">
+                                        <h3>01</h3>
+                                        <p></p>
+                                        <span><del></del>
+                                            <h5></h5>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="special_imgbox">
+                                        <a href="sub.html"><img src=""></a>
+                                    </div>
+                                    <div class="special_textbox">
+                                        <h3>02</h3>
+                                        <p></p>
+                                        <span><del></del>
+                                            <h5></h5>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="special_imgbox">
+                                        <a href="sub.html"><img src=""></a>
+                                    </div>
+                                    <div class="special_textbox">
+                                        <h3>03</h3>
+                                        <p></p>
+                                        <span><del></del>
+                                            <h5></h5>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="special_imgbox">
+                                        <a href="sub.html"><img src=""></a>
+                                    </div>
+                                    <div class="special_textbox">
+                                        <h3>04</h3>
+                                        <p></p>
+                                        <span><del></del>
+                                            <h5></h5>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="special_imgbox">
+                                        <a href="sub.html"><img src=""></a>
+                                    </div>
+                                    <div class="special_textbox">
+                                        <h3>05</h3>
+                                        <p></p>
+                                        <span><del></del>
+                                            <h5></h5>
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!----------   -----  섹션8  -----    ---------->
+            <div id="section8">
+                <div class="section8_top">
+                    <span>서비스 &혜택</span>
+                    <div class="section8_top_right">
+                        <span>공지사항
+                            <i class="fa-solid fa-circle-chevron-right"></i>
+                        </span>
+                        <span class="notice">[도서] 유료 상품 배송비 인상 안내 (2023.2.20~)</span>
+                    </div>
+                </div>
+                <div class="section8_bottom">
+                    <div class="section8_bottom_box1">
+                        <h3>알뜰구매 혜택</h3>
+                    </div>
+
+                    <div class="section8_bottom_box2">
+                        <h3>핵심서비스</h3>
+                    </div>
+
+                    <div class="section8_bottom_box3">
+                        <h3>안심배송서비스</h3>
+                        <ul>
+                            <li>해외주문배송 서비스</li>
+                            <li>안심번호 서비스</li>
+                        </ul>
+                    </div>
+
+                    <div class="section8_bottom_box4">
+                        <h3>고객센터</h3>
+                        <div>
+                            <dl class="scNumber">
+                                <dt>일반문의</dt>
+                                <dd>1577 - 2555</dd>
+                                <dt>eBook 문의</dt>
+                                <dd>1588 - 2547</dd>
+                            </dl>
+                            <p>월~금 (09:00~18:00), 토요일, 일요일, 공휴일 휴무</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!----------   -----  섹션9  -----    ---------->
+            <div id="section9">
+                <div class="section9_box">
+                    <span>매일매일 선착순 도서 상품권 받기!</span>
+                    <h3>이달의 혜택 모음</h3>
+                </div>
+                <div class="section9_box">
+                    <span>친구에게 상품권 선물 FLEX로 포인트 적립까지!</span>
+                    <h3>상품권 선물하기</h3>
+                </div>
+            </div>
+
+
+
+
+
+            <!----------   -----  푸터  -----    ---------->
+            <div id="footer">
+                <div class="footer_wrap">
+                    <!-- 푸터탑 -->
+                    <div class="footer_top">
+                        <ul>
+                            <li class="top_firstLi"><a href="#">개인정보처리방침 </a></li>
+                            <li> | </li>
+                            <li><a href="#">청소년보호정책</a></li>
+                            <li> | </li>
+                            <li><a href="#">이용약관</a></li>
+                            <li> | </li>
+                            <li><a href="#">위치기반서비스 이용약관</a></li>
+                            <li> | </li>
+                            <li><a href="#">회사소개</a></li>
+                            <li> | </li>
+                            <li><a href="#">수익배분프로그램</a></li>
+                            <li> | </li>
+                            <li><a href="#">광고안내</a></li>
+                            <li> | </li>
+                            <li><a href="#">담당자안내</a></li>
+                            <li> | </li>
+                            <li><a href="#">판매자매니저</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- 푸터 미들 -->
+                    <div class="footer_middle">
+                        <div class="footer_middle_1">
+                            <ul class="footer_middle_ul">
+                                <li class="middle_1_firstLi">(주)인터파크커머스</li>
+                                <li>주소 | 서울특별시 서초구 강남대로 447(서초동, 남서울빌딩)</li>
+                                <li>사업자등록번호 | 422-81-03185</li>
+                                <li>호스팅서비스 제공자 | (주)인터파크커머스</li>
+                                <li>대표이사 | 김양선</li>
+                                <li>통신판매업신고 | 2023-서울서초-0823</li>
+                            </ul>
+                        </div>
+
+                        <div class="footer_middle_2">
+                            <ul class="footer_middle_ul">
+                                <li class="middle_1_firstLi">고객센터 <button>문의전클릭></button></li>
+                                <li>전화 1577-2555</li>
+                                <li>팩스 02-6924-9050</li>
+                                <li>이메일 helpshop@interparkshop.com</li>
+                                <li>개인정보보호책임자 cposhopping@interparkshop.com</li>
+                                <li>개인정보보유기간 회원탈퇴시까지</li>
+                            </ul>
+                        </div>
+
+                        <div class="footer_middle_3">
+                            <ul class="footer_middle_ul">
+                                <li class="middle_1_firstLi">구매안전 서비스</li>
+                                <li>고객님은 안전거래를 위해 현금으로 5만원 이상 결제시 구매자가 보호를 받을 수 있는 구매안전 서비스를(쇼핑몰보증보험) 이용하실수 있습니다.</li>
+                                <li><button>서비스 가입사실 확인></button></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 푸터 바텀 -->
+                    <div class="footer_bottom">
+                        <p class="footer_bottom_1">주식회사 인터파크커머스는 인터파크 쇼핑, 인터파크 도서의 통신판매중개자로서 통신판매의 당사자가 아니므로, 개별 판매자가
+                            등록한 오픈마켓 상품에 대해서 주식회사 인터파크커머스는 일체 책임을 지지 않습니다.</p>
+                        <p>Copyright © INTERPARK COMMERCE Corporation ALL Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+    </wrap>
+</body>
+
+</html>

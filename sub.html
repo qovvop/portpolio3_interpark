@@ -1,0 +1,1300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인터파크 도서</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.4.min.js"></script>
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/sub.css" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/4bf53ca42d.js" crossorigin="anonymous"></script>
+
+    <script src="js/header.js"></script>
+    <script src="js/sub_spread.js"></script>
+    <script src="js/sub_event.js"></script>
+    <script src="js/sub_topscroll.js"></script>
+    <script src="js/sub_recommendSlide.js"></script>
+    <script src="js/sub_txt_1_introduction.js"></script>
+    <script src="js/sub_txt_2_publisher.js"></script>
+    <script src="js/sub_txt_3_index.js"></script>
+    <script src="js/sub_txt_4_maintext.js"></script>
+    <script src="js/sub_txt_5_author_intro1.js"></script>
+    <script src="js/sub_liveslide.js"></script>
+</head>
+
+
+<body>
+
+        <!----------   -----  헤더  -----    ---------->
+        <header>
+            <!---  헤더1  --->
+            <div id="headerTop">
+                <div class="headerTop_center">
+                    <div class="headerTop_left">
+                        <ul class="headerTop_leftMenu">
+                            <li><a href="sub.html">홈</a></li>
+                            <li><a href="sub.html">투어</a></li>
+                            <li><a href="sub.html">티켓</a></li>
+                            <li><a href="sub.html">쇼핑</a></li>
+                            <li><a href="sub.html">도서</a></li>
+                        </ul>
+                    </div>
+                    <div class="headerTop_right">
+                        <ul class="headerTop_rightMenu">
+                            <li><a href="sub.html">로그인</a></li>
+                            <li><a href="sub.html">회원가입</a></li>
+                            <li><a href="sub.html">북카트</a></li>
+                            <li><a href="sub.html">마이페이지<img src="img/header_arrow_down.png"></a>
+                                <ul class="headerTop_rightMenu_sub">
+                                    <li><a>마이도서</a></li>
+                                    <li><a>주문배송조회</a></li>
+                                    <li><a>I-포인트적립</a></li>
+                                    <li><a>나의할인쿠폰</a></li>
+                                    <li><a>회원수정</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="sub.html">북피니언</a></li>
+                            <li><a href="sub.html">고객센터</a></li>
+                            <li><a href="sub.html">모바일APP</a></li>
+                            <li><a href="sub.html">Language<img src="img/header_arrow_down.png"></a>
+                                <ul class="headerTop_rightMenu_sub">
+                                    <li><a>English</a></li>
+                                    <li><a>日本語</a></li>
+                                    <li><a>中文</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!---  헤더2  --->
+            <div id="headerMiddle">
+                <div class="headerMiddle_center">
+                    <div class="headerLogo">
+                        <a href="index.html"><img src="img/logo_IntcBook.png"></a>
+                    </div>
+
+                    <div class="headerSearch">
+                        <input type="text" placeholder="던킨 아메리카노 Free!" onfocus="this.placeholder=''"
+                            onblur="this.placeholder='던킨 아메리카노 Free!'"
+                            style="background-image:url('img/btn_search.png'); background-position:390px 4px;"></input>
+
+                        <ul class="headerSearch_bottom">
+                            <li><a href="#">최인아 대표</a></li>
+                            <li>|</li>
+                            <li><a href="#">과학의 위로</a></li>
+                            <li>|</li>
+                            <li><a href="#">이해인 추천</a></li>
+                            <li>|</li>
+                            <li><a href="#">돈많은친구</a></li>
+                            <li>|</li>
+                            <li><a href="#">부와 성공의 법칙</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="headerAD">
+                        <img src="img/GN_dun_0407.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <!---  헤더3  --->
+            <div id="headerBottom">
+                <div class="headerBottom_center">
+                    <div class="all_nav">
+                        <a><i class="fa-solid fa-bars"></i>전체카테고리<i class="fa-solid fa-chevron-down"></i></a>
+                        <!--전체카테고리-->
+                        <div class="all_navBox">
+                            <div class="all_navBox_top">
+                                <div class="navBox_domesticbook">
+                                    <h3>국내도서</h3>
+                                    <div class="domesticbook_ul">
+                                        <ul>
+                                            <li>소설</li>
+                                            <li>장르소설</li>
+                                            <li>시.에세이</li>
+                                            <li>경제경영</li>
+                                            <li>자기계발</li>
+                                            <li>사회과학</li>
+                                            <li>역사.문화</li>
+                                            <li>예술.대중문화</li>
+                                            <li>인문</li>
+                                            <li>자연.과학</li>
+                                            <li>종교.역학</li>
+                                            <li>유아</li>
+                                            <li>아동</li>
+                                            <li>가정과 생활</li>
+                                            <li>청소년</li>
+                                            <li>초등학습</li>
+                                            <li>중등학습</li>
+                                            <li>고등학습</li>
+                                            <li>국어.외국어.사전</li>
+                                        </ul>
+
+                                        <ul>
+                                            <li>자격서수험서</li>
+                                            <li>공무원 수험서</li>
+                                            <li>컴퓨터.인터넷</li>
+                                            <li>전공.대학교재</li>
+                                            <li>여행</li>
+                                            <li>취미레저</li>
+                                            <li>건강뷰티</li>
+                                            <li>잡지</li>
+                                            <li>만화.라이트노벨</li>
+                                            <li>유아동전집</li>
+                                            <li>예약판매</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="navBox_foreignbook">
+                                    <h3>외국도서</h3>
+                                    <div class="foreignbook_ul">
+                                        <ul>
+                                            <li>어린이</li>
+                                            <li>문학</li>
+                                            <li>ELT·사전</li>
+                                            <li>컴퓨터</li>
+                                            <li>경제·인문</li>
+                                            <li>실용·예술</li>
+                                            <li>대학·전문서적</li>
+                                            <li>해외잡지</li>
+                                            <li>학습교구/게임</li>
+                                            <li>프랑스도서</li>
+                                            <li>예약판매</li>
+                                            <li>원서vs번역서</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="navBox_goods">
+                                    <h3>굿즈#></h3>
+                                    <div class="goods_ul">
+                                        <ul>
+                                            <li>문구/팬시</li>
+                                            <li>사무/학용</li>
+                                            <li>학습</li>
+                                            <li>독서용품</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="all_navBox_bottom">
+                                <img src="img/icon_closeX.png" class="closeX">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="nav">
+                        <ul class="navRight">
+                            <li><a href="sub.html">베스트셀러</a></li>
+                            <li><a href="sub.html">신간</a></li>
+                            <li><a href="sub.html">이벤트</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+
+
+    <div id="wrap">
+
+        <!---------------       상품 구매창       ----------------->
+        <div id="section1">
+            <!-- 카테고리 -->
+            <div class="sub_nav">
+                <ul>
+                    <li><a href="#">홈 <i class="fas fa-caret-down"></i></a></li>
+                    <li><i class="fas fa-angle-right"></i></li>
+                    <li><a href="#">국내도서 <i class="fas fa-caret-down"></i></a></li>
+                    <li><i class="fas fa-angle-right"></i></li>
+                    <li><a href="#">소설 <i class="fas fa-caret-down"></i></a></li>
+                    <li><i class="fas fa-angle-right"></i></li>
+                    <li><a href="#">외국소설 <i class="fas fa-caret-down"></i></a></li>
+                    <li><i class="fas fa-angle-right"></i></li>
+                    <li><a href="#">유럽소설 <i class="fas fa-caret-down"></i></a></li>
+                </ul>
+            </div>
+
+
+            <!-- 제목 -->
+            <div class="sub_title">
+                <div class="title_left">
+                    <h3>나를 향해 걷는 열 걸음 <span>: 단 하나의 나로 살게 하는 인생의 문장들</span></h3>
+
+                </div>
+                <div class="title_right">
+                    <div class="title_right_wrap">
+                        <span>★★★★★</span>
+                        <span>10</span>
+                        <span>|</span>
+                        <span><img src="img/sub/icon_review.png" alt="리뷰 아이콘"></span>
+                        <span>리뷰</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- product -->
+            <div class="sub_product">
+
+                <!-- product left -->
+                <div class="product_left">
+                    <div class="product_imgbox"><img src="img/sub/sub_book.jpg" alt="책 이미지"></div>
+
+                    <div class="product_btnbox">
+                        <ul>
+                            <li><a href="#"><img src="img/sub/product_btn1.png" style="-webkit-user-drag: none;"
+                                        alt="크게보기"></a></li>
+                            <li><a href="#"><img src="img/sub/product_btn2.png" style="-webkit-user-drag: none;"
+                                        alt="미리보기"></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="product_divbox">
+                        <ul>
+                            <li>판매지수 <span>3,286</span></li>
+                            <li>
+                                공유하기
+                                <img src="img/sub/icon_share1.png" style="-webkit-user-drag: none;" alt="공유하기 아이콘 1">
+                                <img src="img/sub/icon_share2.png" style="-webkit-user-drag: none;" alt="공유하기 아이콘 2">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- product right -->
+                <div class="product_right">
+
+                    <div class="product_info">
+                        <ul>
+                            <li>저 : <span>최진석</span></li>
+                            <li>|</li>
+                            <li>출판사 : <span>열림원</span></li>
+                            <li>|</li>
+                            <li>발행 : 2022년 07월 20일</li>
+                            <li>|</li>
+                            <li>쪽수 : 336</li>
+                            <li>|</li>
+                            <li>ISBN : 9791170401254</li>
+                        </ul>
+                    </div>
+
+                    <div class="product_table">
+
+                        <table>
+                            <tr>
+                                <th>정가</th>
+                                <td>17,000원</td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="2">
+                                    <div class="bubble">
+                                        <h4>새책</h4>
+                                        <h3>15,300원 <span>(10%할인)</span></h3>
+                                        <p>850P <span>(5%적립)</span></p>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th>할인혜택</th>
+                                <td class="td_cursor">
+                                    카드할인/무이자 할부 <i class="fas fa-angle-right"></i> &nbsp;&nbsp;|&nbsp;&nbsp; 카카오페이 5만원이상
+                                    결제시 3천원 즉시할인! <i class="fas fa-angle-right"></i>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th>적립혜택</th>
+                                <td><span class="td_span1">740p</span> (5%적립) &nbsp;|&nbsp;
+                                    <span class="td_span2">5만원이상 주문시 2천P+등급별 최대 1.5%적립</span> <i
+                                        class="fas fa-angle-right"></i>
+                            </tr>
+
+                            <tr>
+                                <th></th>
+                                <td>I-Point 적립은 마이페이지에서 직접 <span class="td_span3">구매확정</span>하신 경우만 적립됩니다.</td>
+                            </tr>
+
+                            <tr>
+                                <th>추가혜택</th>
+                                <td>
+                                    <img src="img/sub/purchase_coupon1.jpg" style="-webkit-user-drag: none;"
+                                        alt="추가혜택1">
+                                    <img src="img/sub/purchase_coupon2.jpg" style="-webkit-user-drag: none;"
+                                        alt="추가혜택2">
+                                    <img src="img/sub/purchase_coupon3.png" style="-webkit-user-drag: none;"
+                                        alt="추가혜택3">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th colspan="2" style="height: 40px;">
+                                    <img src="img/sub/table_banner.jpg" style="-webkit-user-drag: none;" alt="추가혜택 배너">
+                                </th>
+                            </tr>
+
+                            <tr>
+                                <th>배송정보</th>
+                                <td><span class="td_span4">
+                                        5/31(수) 이내 발송 예정 (서울시 강남구 삼성로 512) <img src="img/sub/ico_help1.gif"
+                                            style="-webkit-user-drag: none;" alt="help"></span>
+                                    <span class="td_span5">| 무료배송<img src="img/sub/ico_help1.gif"
+                                            style="-webkit-user-drag: none;" alt="help"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>주문수량</th>
+                                <td>
+                                    <select name="select" id="select">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </td>
+                            </tr>
+
+                        </table>
+
+                        <div class="product_btn_wrap">
+                            <button>북카트 담기</button>
+                            <button>바로구매</button>
+                            <button>♡</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <!----------   -----  메뉴바  -----    ---------->
+        <!-- submenu nav -->
+        <div id="submenu_nav">
+            <ul class="submenu_list">
+                <li><a href="#live">책정보</a></li>
+                <li><a href="#event_wrap">이벤트/기획전</a></li>
+                <li><a href="#recommend_wrap">추천도서</a></li>
+                <li><a href="#review_wrap">100자평/리뷰</a></li>
+                <li><a href="#exchange">교환/환불/배송</a></li>
+            </ul>
+        </div>
+
+
+
+        <div id="info_wrap">
+            <!----------   -----  이상품의 분류 -----    ---------->
+            <h2>이상품의 분류</h2>
+            <div class="classification">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><i class="fas fa-angle-right"></i></li>
+                        <li><a href="#">도서</a></li>
+                        <li><i class="fas fa-angle-right"></i></li>
+                        <li><a href="#">인문</a></li>
+                        <li><i class="fas fa-angle-right"></i></li>
+                        <li><a href="#">인문교양</a></li>
+                        <li><i class="fas fa-angle-right"></i></li>
+                        <li><a href="#">인문교양일반</a></li>
+                    </ul>
+
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><i class="fas fa-angle-right"></i></li>
+                        <li><a href="#">도서</a></li>
+                        <li><i class="fas fa-angle-right"></i></li>
+                        <li><a href="#">자기계발</a></li>
+                        <li><i class="fas fa-angle-right"></i></li>
+                        <li><a href="#">삶의자세</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!----------   -----  라이브북 -----    ---------->
+            <h2>라이브북</h2>
+            <div id="live">
+                <img src="img/sub/live_btn_pre.png" class="live_btn_pre">
+                <div class="live_imgbox">
+                    <ul class="live_content">
+                        <li><img src="img/sub/live_1.jpg"></li>
+                        <li><img src="img/sub/live_2.jpg"></li>
+                        <li><img src="img/sub/live_3.jpg"></li>
+                        <li><img src="img/sub/live_4.jpg"></li>
+                        <li><img src="img/sub/live_5.jpg"></li>
+                        <li><img src="img/sub/live_6.jpg"></li>
+                        <li><img src="img/sub/live_7.jpg"></li>
+                        <li><img src="img/sub/live_8.jpg"></li>
+                        <li><img src="img/sub/live_9.jpg"></li>
+                    </ul>
+                </div>
+                <ul class="dot">
+                    <li class="on"><i class="fas fa-circle"></i></li>
+                    <li><i class="fas fa-circle"></i></li>
+                    <li><i class="fas fa-circle"></i></li>
+                    <li><i class="fas fa-circle"></i></li>
+                    <li><i class="fas fa-circle"></i></li>
+                    <li><i class="fas fa-circle"></i></li>
+                    <li><i class="fas fa-circle"></i></li>
+                    <li><i class="fas fa-circle"></i></li>
+                    <li><i class="fas fa-circle"></i></li>
+                </ul>
+
+                <img src="img/sub/live_btn_next.png" class="live_btn_next">
+            </div>
+
+
+            <!----------   -----  책소개 -----    ---------->
+            <h2>책소개</h2>
+            <div class="introduction"></div>
+            <div class="spread">
+                <p class="text_spread1"> 펼쳐보기 <i class="fas fa-chevron-down"></i> </p>
+                <p class="text_spread1"> 접어보기 <i class="fas fa-chevron-up"></i> </p>
+            </div>
+
+
+            <!----------   -----  출판사 서평 -----    ---------->
+            <h2>출판사 서평</h2>
+            <div class="publisher"></div>
+            <div class="spread">
+                <p class="text_spread2"> 펼쳐보기 <i class="fas fa-chevron-down"></i> </p>
+                <p class="text_spread2"> 접어보기 <i class="fas fa-chevron-up"></i> </p>
+            </div>
+
+
+
+            <!----------   -----  목차 -----    ---------->
+            <h2>목차</h2>
+            <div class="index"></div>
+            <div class="spread">
+                <p class="text_spread4"> 펼쳐보기 <i class="fas fa-chevron-down"></i> </p>
+                <p class="text_spread4"> 접어보기 <i class="fas fa-chevron-up"></i> </p>
+            </div>
+
+
+            <!----------   -----  본문중에서 -----    ---------->
+            <h2>본문중에서</h2>
+            <div class="maintext"></div>
+            <div class="spread">
+                <p class="text_spread3"> 펼쳐보기 <i class="fas fa-chevron-down"></i> </p>
+                <p class="text_spread3"> 접어보기 <i class="fas fa-chevron-up"></i> </p>
+            </div>
+
+
+            <!----------   -----  관련이미지 -----    ---------->
+            <h2>관련이미지</h2>
+            <div class="main_img"><img src="img/sub/contentimg.jpg"></div>
+
+
+
+
+            <!----------   -----  저자소개 -----    ---------->
+            <h2>저자소개</h2>
+            <div class="author">
+
+                <div class="author_box">
+                    <div class="author_name">
+                        <h4>최진석 [저]</h4>
+                        <span>신작알림 SMS 신청 <i class="fas fa-chevron-right"></i></span>
+                    </div>
+                    <div class="author_intro1"></div>
+                </div>
+
+                <div class="author_bookbox">
+                    <div class="author_title">
+                        <h4>저자의 다른책</h4>
+                        <span>전체보기 <i class="fas fa-chevron-right"></i></span>
+                    </div>
+                    <div class="author_book1">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <div class="author_imgbox"><img src="img/sub/author_1.jpg"></div>
+                                    <div class="author_textbox">
+                                        <p>노자와 장자에 기대어</p>
+                                        <span class="author_price">17,000원</span><span class="author_saleprice">15,300원</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="author_imgbox"><img src="img/sub/author_2.jpg"></div>
+                                    <div class="author_textbox">
+                                        <p>최진석의 대한민국 읽기</p>
+                                        <span class="author_price">17,000원</span><span class="author_saleprice">15,300원</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="author_imgbox"><img src="img/sub/author_3.jpg"></div>
+                                    <div class="author_textbox">
+                                        <p>나 홀로 읽는 도덕경</p>
+                                        <span class="author_price">15,800원</span><span class="author_saleprice">14,200원</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!----------   -----  상품정보제공고시 -----    ---------->
+            <h2>상품정보제공고시</h2>
+            <div class="notice">
+
+                <table>
+                    <tr>
+                        <th>저자</th>
+                        <td>최진석</td>
+                        <th>기획사/제작사</th>
+                        <td>열림원</td>
+                    </tr>
+                    <tr>
+                        <th>ISBN</th>
+                        <td>9791170401254</td>
+                        <th>쪽수</th>
+                        <td>336쪽</td>
+                    </tr>
+                    <tr>
+                        <th>크기</th>
+                        <td>137*200*25</td>
+                        <th>제품구성</th>
+                        <td>공급업체 특성상 정보확인이 어려우니, 정확한 정보를 확인하시려면 1:1문의게시판을 이용 바랍니다.</td>
+                    </tr>
+                    <tr>
+                        <th>발행일(출간일)</th>
+                        <td>2022년 07월20일</td>
+                        <th>목차 또는 책소개</th>
+                        <td>상품 상세 정보를 확인하시고, 정보확인이 어려우시면 1:1문의 게시판을 이용 바랍니다.</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+
+
+        <!----------   -----  이벤트 기획전 -----    ---------->
+        <div id="event_wrap">
+            <h2>이벤트 기획전</h2>
+            <div class="event">
+                <img src="img/sub/sub_event.jpg" style="-webkit-user-drag: none;" alt="event banner">
+                <img src="img/sub/sub_event2.jpg" style="-webkit-user-drag: none;" alt="event banner">
+            </div>
+        </div>
+
+
+
+        <!----------   -----  추천도서 -----    ---------->
+        <div id="recommend_wrap">
+
+            <h5><i class="fa-solid fa-angles-right"></i> 인문 분야에서 많은 회원이 구매한 책</h5>
+            <div class="recommend_slide_wrap">
+                <div class="re_slide1">
+                    <ul>
+                        <li>
+                            <div class="recommend_box">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+                    </ul>
+                </div>
+
+                <span class="sub1_prev"><i class="fas fa-angle-left"></i></span>
+                <span class="sub1_next"><i class="fas fa-angle-right"></i></span>
+            </div>
+
+            <h5><i class="fa-solid fa-angles-right"></i> 이 책을 조회한 회원들이 같이 본 책</h5>
+            <div class="recommend_slide_wrap">
+                <div class="re_slide2">
+                    <ul>
+                        <li>
+                            <div class="recommend_box2">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box2">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box2">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box2">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box2">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box2">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box2">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box2">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box2">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box2">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box2">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box2">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+                    </ul>
+                </div>
+
+                <span class="sub2_prev"><i class="fas fa-angle-left"></i></span>
+                <span class="sub2_next"><i class="fas fa-angle-right"></i></span>
+            </div>
+
+            <h5><i class="fa-solid fa-angles-right"></i> 이 책을 구매한 회원들이 구매한 책</h5>
+            <div class="recommend_slide_wrap">
+                <div class="re_slide3">
+                    <ul>
+                        <li>
+                            <div class="recommend_box3">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box3">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box3">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box3">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box3">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box3">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box3">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box3">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box3">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box3">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box3">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+
+                        <li>
+                            <div class="recommend_box3">
+                                <img src="">
+                                <p></p>
+                            </div>
+                            
+                        </li>
+                    </ul>
+                </div>
+
+                <span class="sub3_prev"><i class="fas fa-angle-left"></i></span>
+                <span class="sub3_next"><i class="fas fa-angle-right"></i></span>
+            </div>
+
+        </div>
+
+
+
+
+        <!----------   -----  리뷰 -----    ---------->
+        <div id="review_wrap">
+
+            <h2>리뷰 <span>★★★★☆</span> <span>9.7</span> <span>(총 7건)</span></h2>
+            <div class="review_title">
+                <button>리뷰쓰기</button>
+            </div>
+
+
+            <div class="review">
+                <div class="re_best_wrap">
+
+                    <div>
+                        <img src="img/sub/awards_img2.png" alt="베스트 리뷰">
+                        <p>베스트 리뷰</p>
+                    </div>
+
+                    <div class="re_best">
+                        <div class="re_best_box1">
+                            <h3><span>★★★★☆</span> 나를 향해 걷는 열 걸음 <span>수상작</span></h3>
+                            <p>j77m*** &nbsp;|&nbsp; 2022/08/24</p>
+                        </div>
+                        <div class="re_best_box2">
+                            <p>건너가는 인간, 여행하는 인간, 질문하는 인간으로 이끄는 최진석 교수의 고전문학 읽기 책의 제목처럼 <나를 향해 걷는 열 걸음>은 열권의 고전 읽고 인생의
+                                    문장들을 골라 그속에 내포한 의미를 철학자인 저자의 시각으로 좀 더 깊이있고 유려한 글솜씨로 쓰여 ... </p>
+                        </div>
+                        <div class="re_best_box3">
+                            <span>
+                                <p>댓글(0) &nbsp;|&nbsp; 추천(0)</p>
+                                <img src="img/sub/review_re_btn.png" alt="추천하기">
+                            </span>
+                            <p> 펼쳐보기 <i class="fas fa-chevron-down"></i></p>
+                        </div>
+                    </div>
+
+                    <div class="re_side">
+                        <p>최근순 &nbsp;|&nbsp; 추천순</p>
+                    </div>
+
+                    <div class="re_best">
+                        <div class="re_best_box1">
+                            <h3><span>★★★★☆</span> 나를 향해 걷는 열 걸음 <span style="border: none;"></span></h3>
+                            <p>sjsjs*** &nbsp;|&nbsp; 2022/08/13</p>
+                        </div>
+                        <div class="re_best_box2">
+                            <p>많은 저서들과 강연들을 통해서 통찰의 시간을 항상 선물해주시는 최진석 교수님의 새로운 책 소식에 마음이 떨렸습니다. 그리고 읽어나가게 된 이 책 <나를 향해
+                                    걷는 열 걸음>으로 인생에 대한 돌아봄의 시간을 귀하게 맞이할 수 있었습니다. 이 책은 단 하나... </p>
+                        </div>
+                        <div class="re_best_box3">
+                            <span>
+                                <p>댓글(0) &nbsp;|&nbsp; 추천(0)</p>
+                                <img src="img/sub/review_re_btn.png" alt="추천하기">
+                            </span>
+                            <p> 펼쳐보기 <i class="fas fa-chevron-down"></i></p>
+                        </div>
+                    </div>
+
+                    <div class="re_best">
+                        <div class="re_best_box1">
+                            <h3><span>★★★★☆</span> 최진석 저의 『나를 향해 걷는 열 걸음』 을 읽고 <span style="border: none;"></span></h3>
+                            <p>esther3*** &nbsp;|&nbsp; 2022/08/07</p>
+                        </div>
+                        <div class="re_best_box2">
+                            <p>최진석 저의 『나를 향해 걷는 열 걸음』 을 읽고평소 책을 가까이 하고 있다. 즐겁게 임하고 있기 때문에 그 누구도 말릴 수가 없는 것이다. 가장 가까이에 있는
+                                집사람마저도 나의 책과 함께 하는 생활에 포기한다고 선언할 정도가 되었다. 그 만큼 아침 눈이 뜨자마자 책을 ...</p>
+                        </div>
+                        <div class="re_best_box3">
+                            <span>
+                                <p>댓글(0) &nbsp;|&nbsp; 추천(0)</p>
+                                <img src="img/sub/review_re_btn.png" alt="추천하기">
+                            </span>
+                            <p> 펼쳐보기 <i class="fas fa-chevron-down"></i></p>
+                        </div>
+                    </div>
+
+                    <div class="re_best">
+                        <div class="re_best_box1">
+                            <h3><span>★★★★☆</span> 나를향해 걷는 열걸음<span style="border: none;"></span>
+                            </h3>
+                            <p>yoll*** &nbsp;|&nbsp; 2022/08/05</p>
+                        </div>
+                        <div class="re_best_box2">
+                            <p>책을 읽다 보면 좋은 문장을 만날 때가 있어요.그럴 때는 소리 내어 읽기도 하고, 노트에 적어두었다가 한참 뒤에 꺼내보기도 해요.하루아침에 인생이 바뀔 정도는
+                                아니어도 하루를 아름답게 만드는 힘이 있는 것 같아요.《나를 향해 걷는 열 걸음》은 최진석 교 ... </p>
+                        </div>
+                        <div class="re_best_box3" style="border-bottom: 0;">
+                            <span>
+                                <p>댓글(0) &nbsp;|&nbsp; 추천(0)</p>
+                                <img src="img/sub/review_re_btn.png" alt="추천하기">
+                            </span>
+                            <p> 펼쳐보기 <i class="fas fa-chevron-down"></i></p>
+                        </div>
+                    </div>
+
+                    <div class="re_pagebtn">
+                        <div class="re_pagebtn_left">
+                            <ul>
+                                <li><i class="fas fa-angle-double-left"></i> 맨앞</li>
+                                <li><i class="fas fa-angle-left"></i>이전</li>
+                                <li style="font-weight: bold; background-color: #555; color: #fff;">1</li>
+                                <li style="font-weight: bold;">2</li>
+                                <li style="font-weight: bold;">3</li>
+                                <li style="font-weight: bold;">4</li>
+                                <li style="font-weight: bold;">5</li>
+                                <li style="font-weight: bold;">6</li>
+                                <li style="font-weight: bold;">7</li>
+                                <li style="font-weight: bold;">8</li>
+                                <li style="font-weight: bold;">9</li>
+                                <li style="font-weight: bold;">10</li>
+                                <li>다음 <i class="fas fa-angle-right"></i></li>
+                                <li>맨뒤 <i class="fas fa-angle-double-right"></i></li>
+                            </ul>
+                        </div>
+                        <div class="re_pagebtn_right">
+                            <p>총 38 페이지</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!----------   -----  100자평 -----    ---------->
+            <h2>100자평</h2>
+            <div class="expectation">
+
+                <div class="ex_radio">
+                    <ul>
+                        <li style="margin-left:25px;"><input type="radio" checked="checked" style="margin-right: 5px;">
+                            기대평</li>
+                        <li>&nbsp;|&nbsp;</li>
+                        <li>평점 <span>★★★★☆</span></li>
+                    </ul>
+
+                    <div>
+                        <textarea maxlength="200" title="기대평">이 책의 기대평(한줄평)을 간단히 남겨주세요.</textarea>
+                        <button>등록하기</button>
+                    </div>
+                </div>
+
+                <div class="ex_side">
+                    <h3>기대평 <span>★★★★★ 9.4</span></h3>
+                    <p>최근순 &nbsp;|&nbsp; 평점 높은순</p>
+                </div>
+
+                <div class="ex_box">
+                    <h3><span>★★★★☆</span>
+                        <p>odash2***</p> 적극 추천합니다.그리고 빠른배송 감사합니다
+                    </h3>
+                    <p>2022/12/29</p>
+                </div>
+
+                <div class="ex_box">
+                    <h3><span>★★★★☆</span>
+                        <p>rabbit4***</p> 다른책보다 읽는속도가 더디네요
+                    </h3>
+                    <p>2022/08/29</p>
+                </div>
+
+                <div class="ex_box" style="border: 0;">
+                    <h3><span>★★★★☆</span>
+                        <p>mhyan***</p> 독서의 힘, 생각할줄 아는 힘의 중요함을 고전 문학에서 찾아봅니다. 강추!!합니다.
+                    </h3>
+                    <p>2022/07/30</p>
+                </div>
+
+                <div class="ex_pagebtn">
+                    <div class="ex_pagebtn_left">
+                        <ul>
+                            <li><i class="fas fa-angle-double-left"></i> 맨앞</li>
+                            <li><i class="fas fa-angle-left"></i>이전</li>
+                            <li style="font-weight: bold; background-color: #555; color: #fff;">1</li>
+                            <li style="font-weight: bold;">2</li>
+                            <li style="font-weight: bold;">3</li>
+                            <li style="font-weight: bold;">4</li>
+                            <li style="font-weight: bold;">5</li>
+                            <li style="font-weight: bold;">6</li>
+                            <li style="font-weight: bold;">7</li>
+                            <li style="font-weight: bold;">8</li>
+                            <li style="font-weight: bold;">9</li>
+                            <li style="font-weight: bold;">10</li>
+                            <li>다음 <i class="fas fa-angle-right"></i></li>
+                            <li>맨뒤 <i class="fas fa-angle-double-right"></i></li>
+                        </ul>
+                    </div>
+                    <div class="ex_pagebtn_right">
+                        <p>총 38 페이지</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!----------   -----  판매자정보 -----    ---------->
+        <div id="exchange_wrap">
+
+            <h2>판매자정보</h2>
+            <div class="seller">
+                <p>인터파크도서에 등록된 오픈마켓 상품은 그 내용과 책임이 모두 판매자에게 있으며,
+                    인터파크도서는 해당 상품과 내용에 대해 책임지지 않습니다.</p>
+
+                <table>
+                    <tr>
+                        <th>상호</th>
+                        <td>(주)교보문고</td>
+                    </tr>
+                    <tr>
+                        <th>대표자명</th>
+                        <td>안병현</td>
+                    </tr>
+                    <tr>
+                        <th>사업자등록번호</th>
+                        <td>102-81-11670</td>
+                    </tr>
+                    <tr>
+                        <th>연락처</th>
+                        <td>1544-1900</td>
+                    </tr>
+                    <tr>
+                        <th>전자우편주소</th>
+                        <td>callcenter@kyobobook.co.kr</td>
+                    </tr>
+                    <tr>
+                        <th>통신판매업신고번호</th>
+                        <td>01-0653</td>
+                    </tr>
+                    <tr>
+                        <th>영업소재지</th>
+                        <td>서울특별시 종로구 종로 1(종로1가,교보빌딩)</td>
+                    </tr>
+                </table>
+
+            </div>
+
+
+            <!----------   -----  교환/환불 -----    ---------->
+            <h2>교환/환불</h2>
+            <div id="exchange">
+
+                <table>
+                    <tr>
+                        <th>반품/교환 방법</th>
+                        <td>'마이페이지 > 취소/반품/교환/환불' 에서 신청 또는 1:1 문의 게시판 및 고객센터(1577-2555)에서 신청 가능</td>
+                    </tr>
+                    <tr>
+                        <th>반품/교환가능 기간</th>
+                        <td>변심 반품의 경우 출고완료 후 6일(영업일 기준) 이내까지만 가능<br>
+                            단, 상품의 결함 및 계약내용과 다를 경우 문제점 발견 후 30일 이내</td>
+                    </tr>
+                    <tr>
+                        <th>반품/교환 비용</th>
+                        <td>변심 혹은 구매착오로 인한 반품/교환은 반송료 고객 부담<br>
+                            상품이나 서비스 자체의 하자로 인한 교환/반품은 반송료 판매자 부담</td>
+                    </tr>
+                    <tr>
+                        <th>반품/교환 불가 사유</th>
+                        <td>·소비자의 책임 있는 사유로 상품 등이 손실 또는 훼손된 경우<br>
+                            (단지 확인을 위한 포장 훼손은 제외)<br>
+
+                            ·소비자의 사용, 포장 개봉에 의해 상품 등의 가치가 현저히 감소한 경우<br>
+                            예) 화장품, 식품, 가전제품(악세서리 포함) 등<br>
+
+                            ·복제가 가능한 상품 등의 포장을 훼손한 경우<br>
+                            예) 음반/DVD/비디오, 소프트웨어, 만화책, 잡지, 영상 화보집<br>
+
+                            ·시간의 경과에 의해 재판매가 곤란한 정도로 가치가 현저히 감소한 경우<br>
+
+                            ·전자상거래 등에서의 소비자보호에 관한 법률이 정하는 소비자 청약철회 제한 내용에 해당되는 경우</td>
+                    </tr>
+                    <tr>
+                        <th>상품 품절</th>
+                        <td>공급사(출판사) 재고 사정에 의해 품절/지연될 수 있음</td>
+                    </tr>
+                    <tr>
+                        <th>소비자 피해보상<br>환불지연에 따른 배상</th>
+                        <td>
+                            ·상품의 불량에 의한 교환, A/S, 환불, 품질보증 및 피해보상 등에 관한 사항은 소비자분쟁해결 기준 (공정거래위원회 고시)에 준하여 처리됨<br>
+
+                            ·대금 환불 및 환불지연에 따른 배상금 지급 조건, 절차 등은 전자상거래 등에서의 소비자 보호에 관한 법률에 따라 처리함
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+
+
+            <!----------   -----  배송안내 -----    ---------->
+            <h2>배송안내</h2>
+            <div class="shipping">
+                <ul>
+                    <li>교보문고 상품은 택배로 배송되며, 출고완료 1~2일내 상품을 받아 보실 수 있습니다.</li>
+                    <li>출고가능 시간이 서로 다른 상품을 함께 주문할 경우 출고가능 시간이 가장 긴 상품을 기준으로 배송됩니다.</li>
+                    <li>군부대, 교도소 등 특정기관은 우체국 택배만 배송가능합니다.</li>
+                    <li>배송비는 업체 배송비 정책에 따릅니다.</li>
+                    <ul>
+                        <li>- 도서 구매 시, 1만 원 이상 무료, 1만원 미만 2천 원</li>
+                        <li>- 상품별 배송비가 있는 경우, 상품별 배송비 정책 적용</li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!----------   -----  푸터  -----    ---------->
+    <div id="footer">
+        <div class="footer_wrap">
+            <!-- 푸터탑 -->
+            <div class="footer_top">
+                <ul>
+                    <li class="top_firstLi"><a href="#">개인정보처리방침 </a></li>
+                    <li> | </li>
+                    <li><a href="#">청소년보호정책</a></li>
+                    <li> | </li>
+                    <li><a href="#">이용약관</a></li>
+                    <li> | </li>
+                    <li><a href="#">위치기반서비스 이용약관</a></li>
+                    <li> | </li>
+                    <li><a href="#">회사소개</a></li>
+                    <li> | </li>
+                    <li><a href="#">수익배분프로그램</a></li>
+                    <li> | </li>
+                    <li><a href="#">광고안내</a></li>
+                    <li> | </li>
+                    <li><a href="#">담당자안내</a></li>
+                    <li> | </li>
+                    <li><a href="#">판매자매니저</a></li>
+                </ul>
+            </div>
+
+            <!-- 푸터 미들 -->
+            <div class="footer_middle">
+                <div class="footer_middle_1">
+                    <ul class="footer_middle_ul">
+                        <li class="middle_1_firstLi">(주)인터파크커머스</li>
+                        <li>주소 | 서울특별시 서초구 강남대로 447(서초동, 남서울빌딩)</li>
+                        <li>사업자등록번호 | 422-81-03185</li>
+                        <li>호스팅서비스 제공자 | (주)인터파크커머스</li>
+                        <li>대표이사 | 김양선</li>
+                        <li>통신판매업신고 | 2023-서울서초-0823</li>
+                    </ul>
+                </div>
+
+                <div class="footer_middle_2">
+                    <ul class="footer_middle_ul">
+                        <li class="middle_1_firstLi">고객센터 <button>문의전클릭></button></li>
+                        <li>전화 1577-2555</li>
+                        <li>팩스 02-6924-9050</li>
+                        <li>이메일 helpshop@interparkshop.com</li>
+                        <li>개인정보보호책임자 cposhopping@interparkshop.com</li>
+                        <li>개인정보보유기간 회원탈퇴시까지</li>
+                    </ul>
+                </div>
+
+                <div class="footer_middle_3">
+                    <ul class="footer_middle_ul">
+                        <li class="middle_1_firstLi">구매안전 서비스</li>
+                        <li>고객님은 안전거래를 위해 현금으로 5만원 이상 결제시 구매자가 보호를 받을 수 있는 구매안전 서비스를(쇼핑몰보증보험) 이용하실수 있습니다.</li>
+                        <li><button>서비스 가입사실 확인></button></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 푸터 바텀 -->
+            <div class="footer_bottom">
+                <p class="footer_bottom_1">주식회사 인터파크커머스는 인터파크 쇼핑, 인터파크 도서의 통신판매중개자로서 통신판매의 당사자가 아니므로, 개별 판매자가
+                    등록한 오픈마켓 상품에 대해서 주식회사 인터파크커머스는 일체 책임을 지지 않습니다.</p>
+                <p>Copyright © INTERPARK COMMERCE Corporation ALL Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+</body>
